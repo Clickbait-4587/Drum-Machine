@@ -6,8 +6,15 @@ body {
     font-family: 'Jura', cursive
 }
 
+button {
+    font-family: 'Jura' !important;
+    font-weight: bolder;
+}
+
 a {
-    color: #00B7FF;
+    /*color: #00B7FF;*/
+    color: #004b69;
+    font-size: 15px
 }
 
 body {
@@ -40,11 +47,16 @@ body {
     border: 2px solid darkslategray;
 }
 
+button {
+    border: 1px solid orange
+}
+
 div#display {
+    color: #a39f9f;
     height: 40px;
     width: 300px;
-    border: 2px solid rgb(70, 69, 68);
-    background-color: rgb(197, 194, 194);
+    border: 2px solid rgb(32, 32, 32);
+    background: linear-gradient(to bottom, rgb(88, 86, 86), rgb(100, 88, 88), rgb(73, 72, 72));
     position: relative;
     bottom: 280px;
     left: 35px;
@@ -53,10 +65,12 @@ div#display {
 
 .clip {
     transition: 0.3s all;
+    background: #616161
 }
 
 .clip:hover {
     transform: scale(1.01);
+    background: #747272
 }
 
 .muted:hover {
