@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+
+  div(class="row z-depth-4" id="drum-machine")
+    each val in bankOne
+      div(class="col s4 cov")
+        button(class="btn play-btn clip grey darken-2 col" id=val.id style="width: 100px; height: 70px; margin-bottom: 5px;")=val.keyTrigger
+        audio(src=val.url id=val.keyTrigger class="audio")
+    div(id="display" class="col s8") Go on lad...

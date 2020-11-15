@@ -1,0 +1,55 @@
+exports.bankOne = [{
+        keyCode: 81,
+        keyTrigger: "Q",
+        id: "kick-1",
+        url: "/kits/MB Kick (1).wav",
+    },
+    {
+        keyCode: 87,
+        keyTrigger: "W",
+        id: "snare",
+        url: "/kits/MB Snare (4).wav",
+    },
+    {
+        keyCode: 69,
+        keyTrigger: "E",
+        id: "hat-1",
+        url: "/kits/MB Hi Hat (3).wav",
+    },
+    {
+        keyCode: 65,
+        keyTrigger: "A",
+        id: "808-1",
+        url: "/kits/MB 808 (6).wav",
+    },
+    {
+        keyCode: 83,
+        keyTrigger: "S",
+        id: "clap-1",
+        url: "/kits/MB Clap (8).wav",
+    },
+    {
+        keyCode: 68,
+        keyTrigger: "D",
+        id: "kick-2",
+        url: "/kits/MB Kick (6).wav",
+    },
+    {
+        keyCode: 90,
+        keyTrigger: "Z",
+        id: "clap-2",
+        url: "/kits/MB Clap (4).wav",
+    },
+    {
+        keyCode: 88,
+        keyTrigger: "X",
+        id: "808-2",
+        url: "/kits/MB 808 (8).wav",
+    },
+    {
+        keyCode: 67,
+        keyTrigger: "C",
+        id: "Hat-2",
+        url: "/kits/MB Hi Hat (22).wav",
+    },
+];

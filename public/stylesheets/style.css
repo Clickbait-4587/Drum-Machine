@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+body {
+    padding: 50px;
+    font: 14px;
+    font-weight: bold;
+    font-family: 'Jura', cursive
+}
+
+a {
+    color: #00B7FF;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background-color: rgb(189, 184, 184);
+}
+
+.inactiveStyle {
+    width: "100px";
+    height: "70px";
+    margin-bottom: "5px"
+}
+
+.activeStyle {
+    background-color: "orange";
+    width: "100px";
+    height: "70px";
+    margin-bottom: "5px";
+    transform: "scale(1.06)";
+}
+
+#drum-machine {
+    background-color: rgb(131, 139, 139);
+    width: 500px;
+    padding: 60px 60px 0 60px;
+    border-radius: 70px;
+    border: 2px solid darkslategray;
+}
+
+div#display {
+    height: 40px;
+    width: 300px;
+    border: 2px solid rgb(70, 69, 68);
+    background-color: rgb(197, 194, 194);
+    position: relative;
+    bottom: 280px;
+    left: 35px;
+    border-radius: 10px;
+}
+
+.clip {
+    transition: 0.3s all;
+}
+
+.clip:hover {
+    transform: scale(1.01);
+}
+
+.muted:hover {
+    transform: scale(1);
+}
